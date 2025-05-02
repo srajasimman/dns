@@ -1,0 +1,22 @@
+---
+manager:
+  max_workers: 2
+
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./
+    default_ttl: 3600
+    enforce_order: False
+
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+    account_id: env/CLOUDFLARE_ACCOUNT_ID
+
+zones:
+  srajasimman.dev.:
+    sources:
+      - config
+    targets:
+      - cloudflare
