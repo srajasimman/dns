@@ -39,6 +39,8 @@ jobs:
       - name: Run OctoDNS Sync - Dry Run
         uses: solvaholic/octodns-sync@main
         with:
+          add_pr_comment: true
+          pr_comment_token: ${{ secrets.GITHUB_TOKEN }}
           config_path: config/production.yaml
         env:
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
