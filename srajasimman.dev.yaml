@@ -17,8 +17,13 @@
       - 2606:50c0:8002::153
       - 2606:50c0:8003::153
     octodns: *octodns
-    
+
 www:
   - type: CNAME
     value: srajasimman.dev.
+    octodns: *octodns
+
+assessment:
+  - type: CNAME
+    value: dietpi.ojos-dragon.ts.net
     octodns: *octodns
