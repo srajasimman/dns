@@ -25,5 +25,5 @@ www:
 
 assessment:
   - type: CNAME
-    value: dietpi.ojos-dragon.ts.net
+    value: dietpi.ojos-dragon.ts.net.
     octodns: *octodns
