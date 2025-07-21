@@ -22,3 +22,8 @@ www:
   - type: CNAME
     value: srajasimman.dev.
     octodns: *octodns
+
+*.sh:
+  - type: CNAME
+    value: dietpi.ojos-dragon.ts.net.
+    octodns: *octodns
