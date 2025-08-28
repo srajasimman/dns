@@ -22,8 +22,3 @@ www:
   - type: CNAME
     value: srajasimman.dev.
     octodns: *octodns
-
-uat.att-elections-app:
-  - type: CNAME
-    value: ec2-3-133-51-161.us-east-2.compute.amazonaws.com.
-    octodns: *octodns
