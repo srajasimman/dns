@@ -22,3 +22,8 @@ www:
   - type: CNAME
     value: srajasimman.dev.
     octodns: *octodns
+
+ps4games:
+  - type: CNAME
+    value: srajasimman.dev.
+    octodns: *octodns
