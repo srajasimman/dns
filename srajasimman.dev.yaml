@@ -20,7 +20,7 @@
 
 www:
   - type: CNAME
-    value: srajasimman.dev.
+    value: srajasimman.github.io.
     octodns: *octodns
 
 ps4games:
